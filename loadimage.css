@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ *{
+   box-sizing: border-box;
+ } 
+ body{
+   font-family: 'Ubuntu',sans-serif;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0;
+ }
+ .bg {
+   background: url('https://allhdwallpapers.com/wp-content/uploads/2016/07/Wood-3.jpg') no-repeat center center/cover;
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   width: 90vw;
+   height:90vh;
+   z-index: -1;
+   filter: blur(30px);
+
+ }
+ .loading-text{
+   font-size: 50px;
+   color: black;
+ }
